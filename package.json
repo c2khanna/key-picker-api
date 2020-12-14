@@ -1,0 +1,29 @@
+{
+  "name": "key-picker-api",
+  "version": "1.0.0",
+  "description": "server for key-picker",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "export ENVIRONMENT=local && nodemon server",
+    "initDB:local": "export ENVIRONMENT=local && node server/initDB.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c2khanna/key-picker-api.git"
+  },
+  "author": "Chaitanya Khanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c2khanna/key-picker-api/issues"
+  },
+  "homepage": "https://github.com/c2khanna/key-picker-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "uuid": "^8.3.2"
+  }
+}

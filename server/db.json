@@ -1,0 +1,359 @@
+[
+  {
+    "brand": "Logitech",
+    "model": "G513",
+    "price": "149.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g513-backlit-mechanical-gaming-keyboard.html",
+    "imgLink": "https://resource.logitechg.com/w_1800,c_limit,f_auto,q_auto:best,f_auto,dpr_auto/content/dam/gaming/en/products/g513/g513-intro-image.png?v=1",
+    "switchType": [
+      "Red",
+      "Brown",
+      "Blue"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 1
+  },
+  {
+    "brand": "Logitech",
+    "model": "G413",
+    "price": "89.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g413-mechanical-gaming-keyboard.920-008300.html",
+    "imgLink": "https://resource.logitechg.com/w_1000,c_limit,q_auto:best,f_auto,dpr_auto/content/dam/gaming/en/products/g413/g413-gallery-1.png?v=1",
+    "switchType": [
+      "Brown"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "Single",
+    "id": 2
+  },
+  {
+    "brand": "Logitech",
+    "model": "G910",
+    "price": "99.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g910-orion-rgb-gaming-keyboard.920-008012.html#product-tech-specs",
+    "imgLink": "https://resource.logitechg.com/e_trim/w_652,ar_4:3,c_limit,q_auto:best,f_auto/w_692,h_519,c_lpad,b_rgb:2f3132,dpr_auto/content/dam/gaming/en/products/g910/g910-gallery-1.png?v=1",
+    "switchType": [
+      "Brown"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 3
+  },
+  {
+    "brand": "Logitech",
+    "model": "G613",
+    "price": "149.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g613-wireless-mechanical-gaming-keyboard.920-008386.html",
+    "imgLink": "https://www.logitechg.com/content/dam/products/gaming/keyboards/g613-wireless-mechanical-gaming-keyboard/g613-wireless-mechanical-gaming-keyboard15.png",
+    "switchType": [
+      "Brown"
+    ],
+    "size": "Full",
+    "isWireless": true,
+    "light": "N/A",
+    "id": 4
+  },
+  {
+    "brand": "Logitech",
+    "model": "G512",
+    "price": "99.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g512-mechanical-gaming-keyboard.html",
+    "imgLink": "https://cdn.alzashop.com/Foto/LegendFoto/photos/MC054m9h2a1_1.png",
+    "switchType": [
+      "Red",
+      "Brown",
+      "Blue"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 5
+  },
+  {
+    "brand": "Logitech",
+    "model": "G915",
+    "price": "249.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g915-low-profile-wireless-mechanical-gaming-keyboard.html",
+    "imgLink": "https://cdn.alzashop.com/Foto/LegendFoto/photos/MC054m9f3_1.png",
+    "switchType": [
+      "Red",
+      "Brown",
+      "Blue"
+    ],
+    "size": "Full",
+    "isWireless": true,
+    "light": "RGB",
+    "id": 6
+  },
+  {
+    "brand": "Logitech",
+    "model": "G815",
+    "price": "199.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g815-low-profile-rgb-mechanical-gaming-keyboard.html",
+    "imgLink": "https://cdn.alzashop.com/Foto/LegendFoto/photos/MC054m9de4_1.png",
+    "switchType": [
+      "Red",
+      "Brown",
+      "Blue"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 7
+  },
+  {
+    "brand": "Logitech",
+    "model": "G Pro",
+    "price": "129.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/pro-mechanical-gaming-keyboard.920-009388.html",
+    "imgLink": "https://resource.logitechg.com/content/dam/gaming/en/products/pro-x-keyboard/pro-x-keyboard-gallery-1.png",
+    "switchType": [
+      "Blue"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 8
+  },
+  {
+    "brand": "Logitech",
+    "model": "G Pro X",
+    "price": "149.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-gaming-keyboard.html",
+    "imgLink": "https://resource.logitechg.com/content/dam/gaming/en/products/pro-x-keyboard/pro-x-keyboard-gallery-1.png",
+    "switchType": [
+      "Blue"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 9
+  },
+  {
+    "brand": "Logitech",
+    "model": "G915 TKL",
+    "price": "229.99",
+    "link": "https://www.logitechg.com/en-us/products/gaming-keyboards/g915-tkl-wireless.html",
+    "imgLink": "https://ph-files.imgix.net/8f067ebc-1cb5-4b83-bdf6-34664c01e5ad.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=750.5660377358491&h=221&fit=max",
+    "switchType": [
+      "Red",
+      "Brown",
+      "Blue"
+    ],
+    "size": "TKL",
+    "isWireless": true,
+    "light": "RGB",
+    "id": 10
+  },
+  {
+    "brand": "Corsair",
+    "model": "K68",
+    "price": "119.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/k68-config-na/p/CH-9102011-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/h9c/h26/9112098766878/-CH-9102011-NA-Gallery-K68-RGB-02.png",
+    "switchType": [
+      "Red",
+      "Blue",
+      "Silver"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 11
+  },
+  {
+    "brand": "Corsair",
+    "model": "K95",
+    "price": "199.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/RGB-Mechanical-Gaming-Keyboards/K95-RGB-PLATINUM-XT-Mechanical-Gaming-Keyboard/p/CH-9127411-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/h08/h87/9456036315166/-CH-9127411-NA-Gallery-K95-PLATINUM-RGB-XT-01.png",
+    "switchType": [
+      "Brown",
+      "Blue",
+      "Silver"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 12
+  },
+  {
+    "brand": "Corsair",
+    "model": "K70 Low Profile",
+    "price": "169.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/RGB-Mechanical-Gaming-Keyboards/K70-RGB-MK-2-Low-Profile/p/CH-9109017-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/h1a/h51/9119189303326/-CH-9109017-NA-Gallery-K70-RGB-MK2-LP-03.png",
+    "switchType": [
+      "Red",
+      "Silver"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 13
+  },
+  {
+    "brand": "Corsair",
+    "model": "K70",
+    "price": "159.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/RGB-Mechanical-Gaming-Keyboards/K70-RGB-MK-2/p/CH-9109011-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/h20/h80/9112529436702/-CH-9109011-NA-Gallery-K70-RGB-MK2-02.png",
+    "switchType": [
+      "Red",
+      "Brown",
+      "Blue",
+      "Silver"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 14
+  },
+  {
+    "brand": "Corsair",
+    "model": "Strafe",
+    "price": "139.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/RGB-Mechanical-Gaming-Keyboards/STRAFE-RGB-MK-2/p/CH-9104110-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/hcc/haa/9112643207198/-CH-9104110-NA-Gallery-Strafe-Mk2-RGB-02.png",
+    "switchType": [
+      "Red"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 15
+  },
+  {
+    "brand": "Corsair",
+    "model": "K63",
+    "price": "109.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/Wireless-mechanical-Gaming-Keyboards/K63-Wireless-Special-Edition-Mechanical-Gaming-Keyboard-%E2%80%94-Ice-Blue-LED-%E2%80%94-CHERRY%C2%AE-MX-Red/p/CH-9145050-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/h92/h0f/9112730599454/-CH-9145050-NA-Gallery-K63-Wireless-SE-02.png",
+    "switchType": [
+      "Red"
+    ],
+    "size": "TKL",
+    "isWireless": true,
+    "light": "Single",
+    "id": 16
+  },
+  {
+    "brand": "Corsair",
+    "model": "K63 Compact",
+    "price": "79.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/Mechanical-Gaming-Keyboards/K63-Compact-Mechanical-Gaming-Keyboard-%E2%80%94-CHERRY%C2%AE-MX-Red/p/CH-9115020-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/h97/h20/9111284514846/-CH-9115020-NA-Gallery-K63-006.png",
+    "switchType": [
+      "Red"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "Single",
+    "id": 17
+  },
+  {
+    "brand": "Corsair",
+    "model": "K65",
+    "price": "139.99",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/RGB-Mechanical-Gaming-Keyboards/K65-RGB/p/CH-9110014-NA",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/h0f/h26/9461865283614/-CH-9110014-NA-Gallery-K65-RAPIDFIRE-RGB-01.png",
+    "switchType": [
+      "Silver",
+      "Red"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 18
+  },
+  {
+    "brand": "Razer",
+    "model": "Blackwidow",
+    "price": "119.99",
+    "link": "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow",
+    "imgLink": "https://i5.walmartimages.com/asr/038cdd33-01c0-41f0-a1d1-9c63de622744_5.408267355efd544b5065827938323963.png?odnWidth=612&odnHeight=612&odnBg=ffffff",
+    "switchType": [
+      "Blue"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 19
+  },
+  {
+    "brand": "Razer",
+    "model": "Blackwidow Tournament Edition Chroma V2",
+    "price": "111.99",
+    "link": "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow-tournament-edition-chroma-v2",
+    "imgLink": "https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h9c/h59/8872238940190",
+    "switchType": [
+      "Blue",
+      "Brown",
+      "Red"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 20
+  },
+  {
+    "brand": "Razer",
+    "model": "Blackwidow X Tournament Edition",
+    "price": "103.99",
+    "link": "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow-x-tournament-edition-chroma",
+    "imgLink": "https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/hba/h8b/8861847322654",
+    "switchType": [
+      "Blue"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "RGB",
+    "id": 21
+  },
+  {
+    "brand": "Razer",
+    "model": "Blackwidow Ultimate",
+    "price": "87.99",
+    "link": "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow-ultimate",
+    "imgLink": "https://assets.razerzone.com/eeimages/support/products/1272/1272_blackwidow_ultimate_2017.png",
+    "switchType": [
+      "Blue"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "Single",
+    "id": 22
+  },
+  {
+    "brand": "Razer",
+    "model": "Blackwidow Lite",
+    "price": "89.99",
+    "link": "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow-lite",
+    "imgLink": "https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/hf3/h91/9101717438494/RZ03-02640100-R3M1.png_200Wx180H",
+    "switchType": [
+      "Brown"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "Single",
+    "id": 23
+  },
+  {
+    "brand": "Razer",
+    "model": "Blackwidow X Tournament Edition",
+    "price": "55.99",
+    "link": "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow-x-tournament-edition",
+    "imgLink": "https://assets.razerzone.com/eeimages/products/24362/xte-chroma-mask_blackbg.png",
+    "switchType": [
+      "Blue"
+    ],
+    "size": "TKL",
+    "isWireless": false,
+    "light": "N/A",
+    "id": 24
+  }
+]
