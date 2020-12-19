@@ -355,5 +355,19 @@
     "isWireless": false,
     "light": "N/A",
     "id": 24
+  },
+    {
+    "id": 25,
+    "brand": "Corsair",
+    "model": "K100",
+    "price": "$229.99",
+    "imgLink": "https://www.corsair.com/medias/sys_master/images/images/hb7/h20/9593453838366/CH-912A01A-NA/Gallery/K100_RGB_01/-CH-912A01A-NA-Gallery-K100-RGB-01.png_1200Wx1200H",
+    "switchType": [
+        "Silver"
+    ],
+    "size": "Full",
+    "isWireless": false,
+    "light": "RGB",
+    "link": "https://www.corsair.com/us/en/Categories/Products/Gaming-Keyboards/RGB-Mechanical-Gaming-Keyboards/K100/p/CH-912A014-NA"
   }
 ]

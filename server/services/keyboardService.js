@@ -18,9 +18,26 @@ const addKeyboardService = (req, res) => {
       err
     })
   })
+}
 
+const getAllKeyboardService = (req, res) => {
+  const dbClient = initDBClient();
+  dbClient.connect();
+  let query = 'SELECT * FROM keyboards';
+  dbClient.query(query).then((data)=>{
+
+    dbClient.end();
+    res.status(200).send(data.rows)
+  }).catch((err) => {
+    dbClient.end();
+    res.status(400).send({
+      message: "error occurred while executing db query",
+      err
+    })
+  })
 }
 
 module.exports = {
-  addKeyboardService
+  addKeyboardService,
+  getAllKeyboardService
 }
