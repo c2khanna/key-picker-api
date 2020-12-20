@@ -25,9 +25,23 @@ const getAllKeyboardService = (req, res) => {
   dbClient.connect();
   let query = 'SELECT * FROM keyboards';
   dbClient.query(query).then((data)=>{
-
     dbClient.end();
-    res.status(200).send(data.rows)
+
+    let keyboards = data.rows.map((k) => {
+      return {
+        brand: k.brand,
+        model: k.model,
+        price: k.price,
+        link: k.url,
+        imgLink: k.img_url,
+        switchType: k.switch_type,
+        size: k.size,
+        isWireless: k.is_wireless,
+        light: k.light
+      }
+    });
+
+    res.status(200).send(keyboards)
   }).catch((err) => {
     dbClient.end();
     res.status(400).send({
