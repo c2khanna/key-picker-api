@@ -1,18 +1,23 @@
-const {initDBClient} = require('./../dbUtils');
+const db = require('../../data/db');
+const {createFilterQuery} = require('./filterUtils');
 
 const addKeyboardService = (req, res) => {
-  const dbClient = initDBClient();
-  dbClient.connect();
-  let k = req.body;
-  let query = 'INSERT INTO keyboards(brand, model, price, url, img_url, switch_type, size, is_wireless, light) VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING *';
-  const values = [k.brand, k.model, k.price, k.link, k.imgLink, k.switchType, k.size, k.isWireless, k.light];
-  dbClient.query(query, values).then((data)=>{
-    dbClient.end();
+  const keyboard = req.body;
+  db('keyboards').insert({
+    brand: keyboard.brand,
+    model: keyboard.model,
+    price: keyboard.price,
+    url: keyboard.link,
+    img_url: keyboard.imgLink,
+    switch_type: keyboard.switchType,
+    size: keyboard.size,
+    is_wireless: keyboard.isWireless,
+    light: keyboard.light
+  }).then((data)=>{
     res.status(200).send({
       message: "successfully added to table",
     })
   }).catch((err) => {
-    dbClient.end();
     res.status(400).send({
       message: "error occurred while executing db query",
       err
@@ -21,13 +26,8 @@ const addKeyboardService = (req, res) => {
 }
 
 const getAllKeyboardService = (req, res) => {
-  const dbClient = initDBClient();
-  dbClient.connect();
-  let query = 'SELECT * FROM keyboards';
-  dbClient.query(query).then((data)=>{
-    dbClient.end();
-
-    let keyboards = data.rows.map((k) => {
+  db.select().table('keyboards').then((data)=>{
+    let keyboards = data.map((k) => {
       return {
         brand: k.brand,
         model: k.model,
@@ -43,7 +43,6 @@ const getAllKeyboardService = (req, res) => {
 
     res.status(200).send(keyboards)
   }).catch((err) => {
-    dbClient.end();
     res.status(400).send({
       message: "error occurred while executing db query",
       err
@@ -51,7 +50,12 @@ const getAllKeyboardService = (req, res) => {
   })
 }
 
+const filterKeyboards = (req, res) => {
+  
+}
+
 module.exports = {
   addKeyboardService,
-  getAllKeyboardService
+  getAllKeyboardService,
+  filterKeyboards
 }

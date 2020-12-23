@@ -2,12 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const cors = require('cors')
 
+require('dotenv').config({ path: `.env.${process.env.NODE_ENV}` })
 const router = require('./routes');
 
 const app = express()
 const port = 3000
 
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 // var whitelist = ['http://localhost:4200']
 
