@@ -1,5 +1,4 @@
 const db = require('../../data/db');
-const {createFilterQuery} = require('./filterUtils');
 
 const addKeyboardService = (req, res) => {
   const keyboard = req.body;
@@ -50,12 +49,42 @@ const getAllKeyboardService = (req, res) => {
   })
 }
 
-const filterKeyboards = (req, res) => {
+const filterKeyboardService = (req, res) => {
+  let filterParams = req.body;
   
+  db('keyboards').where((builder) => {
+    if (filterParams.brand) {
+      builder.whereIn('brand', filterParams.brand)
+    }
+  }).andWhere((builder) => {
+    if (filterParams.price) {
+      builder.whereBetween('price', [filterParams.price.low, filterParams.price.high])
+    }
+  }).andWhere((builder) => {
+    if (filterParams.size) {
+      builder.whereIn('size', filterParams.size)
+    }
+  }).andWhere((builder) => {
+    if (filterParams.light) {
+      builder.whereIn('light', filterParams.light)
+    }
+  }).andWhere((builder) => {
+    if (filterParams.isWireless) {
+      builder.where('is_wireless', filterParams.isWireless)
+    }
+  }).andWhere((builder) => {
+    if (filterParams.switchType) {
+      filterParams.switchType.forEach((st) => {
+        builder.orWhereRaw('switch_type && ARRAY[(?)]::text[]', st);
+      })
+    }
+  }).then(data => {
+    res.status(200).send(data);
+  })
 }
 
 module.exports = {
   addKeyboardService,
   getAllKeyboardService,
-  filterKeyboards
+  filterKeyboardService
 }

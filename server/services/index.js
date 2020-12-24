@@ -1,6 +1,7 @@
-const {addKeyboardService, getAllKeyboardService} = require('./keyboardService');
+const {addKeyboardService, getAllKeyboardService, filterKeyboardService} = require('./keyboardService');
 
 module.exports = {
   addKeyboardService,
-  getAllKeyboardService
+  getAllKeyboardService,
+  filterKeyboardService
 }
