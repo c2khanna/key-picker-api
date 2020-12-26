@@ -8,7 +8,9 @@
     "start:local": "export NODE_ENV=development && nodemon server",
     "knex-createDB:local": "export NODE_ENV=development && knex migrate:latest",
     "knex-rollbackDB:local": "export NODE_ENV=development && knex migrate:rollback",
-    "knex-seedDB:local": "export NODE_ENV=development && knex seed:run --specific=keyboard.js"
+    "knex-seedDB:local": "export NODE_ENV=development && knex seed:run --specific=keyboard.js",
+    "knex-createDB": "export NODE_ENV=production && knex migrate:latest",
+    "knex-seedDB": "export NODE_ENV=production && knex seed:run --specific=keyboard.js"
   },
   "repository": {
     "type": "git",
