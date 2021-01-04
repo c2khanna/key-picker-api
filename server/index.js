@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 if(process.env.NODE_ENV === 'development') {
   app.use(cors());
 } else {
-  var whitelist = ['http://keypicker.s3-website.us-east-2.amazonaws.com', 'https://d4trfcr1yduby.cloudfront.net'];
+  var whitelist = ['http://keypicker.s3-website.us-east-2.amazonaws.com'];
   
   var corsOptions = {
     origin: function (origin, callback) {
